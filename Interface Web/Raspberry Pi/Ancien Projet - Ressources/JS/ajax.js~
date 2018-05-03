@@ -1,0 +1,12 @@
+function getLog() {
+    $.ajax({
+        url: 'Resources/Data.txt',
+        dataType: 'text',
+        success: function(text) {
+            $("#_Datas").text(text);
+            setTimeout(getLog, 1000);
+        }
+    })
+}
+
+getLog();

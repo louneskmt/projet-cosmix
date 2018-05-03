@@ -1,0 +1,41 @@
+html {
+	scroll-behavior: smooth;
+	margin-left: -1.2vh;
+	margin-right: -1vh;
+	margin-top: -3.5vw;
+}
+
+#header {
+	background: url('../Resources/header.jpg') repeat-x 0 -30vh fixed;
+	background-size: 100vw;
+	height: 70vh;
+	line-height: 70vh;
+	text-align: center;
+	font-family: ubuntu;
+	font-size: 5vh;
+	text-shadow: 0 0 0.3vh rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.3);
+	box-shadow: 0 0 0.5vh black;
+}
+
+#_Datas {
+	background: radial-gradient(rgb(230, 230, 230) 60%, gray);
+	text-align: center;
+	width: 99.5vw;
+	height: 7vh;
+	line-height: 7vh;
+	border: solid gray 2px;
+	border-radius: 0vh 2vh 2vh 2vh;
+	font-family: ubuntu;
+	color: deepskyblue;
+}
+
+#realtime_datas {
+	margin-top: 5vh;
+	font-family: ubuntu;
+	border-top: solid gray 2px;
+	border-right: solid gray 2px;
+	border-left: solid gray 2px;	width: 14vw;
+	height: 4vh;
+	line-height: 4vh;
+}

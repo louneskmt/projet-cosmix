@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Détecteur de muons</title>
+		<link rel="stylesheet" href="Style/style.css"/>
+	</head>
+	<body>
+		<div id="header">
+			<h1 id="title">DETECTEUR DE MUONS</h1>
+		</div>
+		<div id="realtime_datas">
+		Données en temps réel :
+		<div id="_Datas">
+		</div>
+	</body>
+	<script type="text/javascript" src="JS/jquery-2.2.1.js"></script>
+	<script type="text/javascript" src="JS/ajax.js"></script>
+	<script type="text/javascript" src="JS/peffect.js"></script>
+</html>
+

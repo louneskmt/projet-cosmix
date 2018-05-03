@@ -1,0 +1,110 @@
+html {
+	scroll-behavior: smooth;
+	margin-left: -1.2vh;
+	margin-right: -1vh;
+	margin-top: -3.5vw;
+}
+
+#header {
+	background: url('../Resources/paysage.png') repeat-x 0 -30vh fixed;
+	background-size: 100vw;
+	height: 70vh;
+	line-height: 70vh;
+	text-align: center;
+	font-family: ubuntu;
+	font-size: 5vh;
+	text-shadow: 0 0 0.3vh rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.3);
+	box-shadow: 0 0 0.5vh black;
+}
+
+#_Datas {
+	font-family: ubuntu;
+	font-size: 2vh;
+}
+
+#table_head {
+	float: top;
+}
+
+th {
+	min-width: 3vw;
+	background-color: rgba(10,50,255,0.6);
+	color: white;
+}
+
+tr {
+	min-width: 3vw;
+	font-family: ubuntu;
+	background-color: rgba(200,200,200,0.7);
+}
+
+#realtime_datas {
+	margin-top: 5vh;
+	font-family: ubuntu;
+	border-top: solid gray 2px;
+	border-right: solid gray 2px;
+	border-left: solid gray 2px;	width: 14vw;
+	height: 4vh;
+	line-height: 4vh;
+}
+
+#date {
+	min-width: 6vw;
+}
+
+#heure {
+	min-width: 4vw;
+}
+
+#seconde {
+	min-width: 7vw;
+}
+
+#nb_satellites {
+	min-width: 6vw;
+}
+
+#latitude {
+	min-width: 5vw;
+}
+
+#longitude {
+	min-width: 6vw;
+}
+
+#altitudegps {
+	min-width: 8vw;
+}
+
+#temperature {
+	min-width: 8vw;
+}
+
+#pression {
+	min-width: 5vw;
+}
+
+#trigger1 {
+	min-width: 5.5vw;
+}
+
+#trigger2 {
+	min-width: 5.5vw;
+}
+
+#trigger_both {
+	min-width: 6.5vw;
+}
+
+#compteur1 {
+	min-width: 6.8vw;
+}
+
+#compteur2 {
+	min-width: 6.8vw;
+}
+
+#coincidences {
+	min-width: 8vw;
+}
