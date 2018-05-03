@@ -1,4 +1,4 @@
-#include <EEPROM.h>
+﻿#include <EEPROM.h>
 #include <TinyGPS.h>
 #include <Serial1.h>
 #include <RTClib.h>
@@ -11,6 +11,7 @@
 // Mega 2560 Rev3 //
 // GPS Shield Sparfun //
 // Datalogging Arduino Shield CS L2 L1 //
+// LCD //
 
 
 // ------- //
