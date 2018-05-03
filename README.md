@@ -1,5 +1,5 @@
 # Projet d'amélioration du détecteur Cosmix
-Projet d'amélioration du détecteur muonique Cosmix pour le concours Beamlines for School du CERN (Ligne T9 - http://beamline-for-schools.web.cern.ch) et autres.
+Projet d'amélioration du détecteur muonique Cosmix pour le concours [Beamlines for School](http://beamline-for-schools.web.cern.ch) du CERN (Ligne T9) et autres.
 
 ---
 
