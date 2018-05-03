@@ -7,7 +7,7 @@
 #include <Adafruit_MCP23017.h>
 #include <Adafruit_RGBLCDShield.h>
 
-// Référence shield //
+// Référence des différents shields //
 // Mega 2560 Rev3 //
 // GPS Shield Sparfun //
 // Datalogging Arduino Shield CS L2 L1 //
