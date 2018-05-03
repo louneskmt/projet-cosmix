@@ -1,4 +1,4 @@
 # projet-cosmix
-Projet d'amÃ©lioration du dÃ©tecteur muonique Cosmix - Beamlines for School (CERN) et autres
+Projet d'amélioration du détecteur muonique Cosmix - Beamlines for School (CERN) et autres.
 
 Groupe : Lounès KSOURI et Killian CLOTAGATIDE
