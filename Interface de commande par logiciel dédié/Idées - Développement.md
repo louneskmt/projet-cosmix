@@ -3,6 +3,7 @@
 ###   I.	Shield Ethernet Arduino  
 
 Utilisation d’un Shield Ethernet connecté directement à la carte Arduino Méga principale.  
+
 Plus :
 -	Coût moins important (Shield à 25€ environ)
 -	Mise en place plus simple ? (A voir, car le code peut être plus complexe à réaliser)
@@ -14,7 +15,8 @@ Moins :
 
 ###   II.	Raspberry Pi  
 
-Connection d’un mini-ordinateur Raspberry Pi sous Raspbian, qui servirait de serveur au Cosmix, mais également de « traiteur de données » (avant de les envoyer).  
+Connection d’un mini-ordinateur Raspberry Pi sous Raspbian, qui servirait de serveur au Cosmix, mais également de « traiteur de données » (avant de les envoyer).
+  
 Plus :
 -	Allège le code de la carte Arduino
 -	Données plus claires et mises en forme pour l’utilisateur
