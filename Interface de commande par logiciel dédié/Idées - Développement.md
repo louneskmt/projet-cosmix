@@ -29,10 +29,8 @@ Moins :
 
 ###   III.	Conclusion  
 
-Le Raspberry Pi semble être la meilleure option mais il faudrait se pencher plus sur les deux idées.
-
-
-
+Le Raspberry Pi semble être la meilleure option car il offre plus de possibilités, l'utilisation est plus facile et cela permet de ne pas surcharger la carte Arduino.
+<br />
 ## Logiciel dédié
 
 ### Présentation générale
