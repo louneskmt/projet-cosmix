@@ -56,4 +56,4 @@ Fonctionnalités à implémenter :
 - Téléchargement systèmatique de tous les fichiers de mesure, afin d'y avoir accès hors-ligne
 - Mot de passe afin d'éviter l'accès à des personnes "non-autorisés" ?
 - Pour renforcer la "sécurité" d'une mesure, donner une clé ou quelque chose de précis à la personne ayant lancé la mesure afin qu'elle uniquement puisse y mettre fin en la rentrant (pour éviter que quelqu'un arrête la mesure sans le consentement de ceui qui l'a lancé)
-- Page explicative quand au fonctionnement du détecteur, sur les muons, etc, pour les collèges et lycées qui l'utiliseront potentiellement
+- Page explicative quant au fonctionnement du détecteur, sur les muons, etc, pour les collèges et lycées qui l'utiliseront potentiellement
