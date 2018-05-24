@@ -22,6 +22,7 @@ Ce serveur devra :
 - Héberger les données nécessaires au bon fonctionnement du logiciel
 - Posséder une adresse IP fixe (du Lycée Roland Garros)
 - Être accessible de partout (pas de restrictions d’adresses IP, or dangereuses)
+—-
 
 ## Logiciel dédié
 
