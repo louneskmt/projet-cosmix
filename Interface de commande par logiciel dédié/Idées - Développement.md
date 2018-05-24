@@ -31,6 +31,8 @@ Moins :
 
 Le Raspberry Pi semble être la meilleure option car il offre plus de possibilités, l'utilisation est plus facile et cela permet de ne pas surcharger la carte Arduino.
 <br />
+<br />
+
 ## Logiciel dédié
 
 ### Présentation générale
