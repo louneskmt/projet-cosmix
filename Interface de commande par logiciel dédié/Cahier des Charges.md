@@ -23,8 +23,6 @@ Ce serveur devra :
 - Posséder une adresse IP fixe (du Lycée Roland Garros)
 - Être accessible de partout (pas de restrictions d’adresses IP, or dangereuses)
 
-<br />
-
 ## Logiciel dédié
 
 ### Présentation générale
