@@ -1,0 +1,46 @@
+ARDUINO <==> RASPBERRY
+
+<< Config
+<< UNIT 1000 (L'unité utilisée sera la seconde (=1000 ms); Défaut : millisecondes)
+<< GPS 10 (Envoyez un signal GPS toutes les 10 secondes)
+<< BARO 10
+<< TC 10
+<< RTTI 0 (Real-time transmission interval ; 0 = Aucun)
+<< TIME Sat Jun 30 2018 23:50:35 GMT+0400 (Configurer l'horloge pour le départ si nécessaire)
+<< READY delay (Le paramètre de START sera le délai avant de commencer la mesure ; delay || time)
+<< START 5 (Démarrer dans 5 secondes)
+
+/\/\/\ +5 SECONDES /\/\/\
+
+>> 1 (Signal de démarrage)
+>> 2 0 (Temps clé : 0ms depuis le début)
+>> 6 ..... (GPS)
+>> 7 ..... (Baromètre)
+>> 8 ..... (Température)
+
+........
+
+>> 3 20 ([Temps clé] Signal Barreau 1 : 20ms depuis le dernier temps-clé)
+>> 4 10 ([Temps clé] Signal Barreau 2 : 10ms depuis le dernier temps-clé)
+>> 5 30 ([Temps clé] Signal Barreau 2 : 10ms depuis le dernier temps-clé)
+
+\/\/\/ +10 SECONDES \/\/\/
+
+>> 2 40 (Temps clé : 40ms depuis le début)
+>> 6 ..... (GPS)
+>> 7 ..... (Baromètre)
+>> 8 ..... (Température)
+
+........
+
+<< STOP
+>> 9 (Signal de Fin)
+>> RES 0 (Démarrage du résumé)
+>> T0 Sat Jun 30 2018 23:50:40 GMT+0400 (Heure de démarrage)
+>> T1 Sat Jun 30 2018 23:58:53 GMT+0400 (Heure de fin)
+>> B1 67 (Nombres de signaux sur le barreaux 1)
+>> B2 77 (Nombres de signaux sur le barreaux 2)
+>> CO 20 (Nombres de coincidences)
+>> BARO 90 (Pression moyenne)
+>> TC 27 (Température moyenne)
+>> RES 1 (Fin du résumé)
